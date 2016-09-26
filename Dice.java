@@ -15,4 +15,21 @@ public class Dice {
 			System.out.print(roll() + " ");
 		}		
 	}
+	
+	//roll the die n times and print number of specified eyes
+	public int testDice(int rolls, int eyes)
+	{
+		int result = 0;
+		
+		for (int i=1; i<=rolls; i++) 
+		{
+			int roll =  roll();
+			
+			if (eyes == roll)
+			{
+				result++;
+			}
+		}
+		return result;	
+	}
 }
