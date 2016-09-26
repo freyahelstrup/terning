@@ -47,7 +47,7 @@ public class Test_UseDice {
 			approvedResult = false;
 		}
 		
-		assertEquals(1,approvedResult);
+		assertEquals(true,approvedResult);
 		
 	}
 
